@@ -1,0 +1,1059 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders calculator component correctly 1`] = `
+<View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#949494",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        },
+        Object {
+          "marginLeft": 20,
+          "marginTop": 15,
+        },
+      ]
+    }
+  >
+    MONTHLY PAYMENT
+  </Text>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginLeft": 20,
+        "marginTop": 7,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 21,
+        }
+      }
+    >
+      $
+       rent +
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#00CFCC",
+            "fontSize": 21,
+          },
+          Object {
+            "marginLeft": 5,
+          },
+        ]
+      }
+    >
+      $
+      0
+       investment
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#d3d3d3",
+        "height": 1,
+        "marginTop": 3,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#d3d3d3",
+        "height": 1,
+        "marginTop": 2,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginLeft": 30,
+        "marginTop": 35,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#949494",
+            "fontSize": 15,
+            "fontWeight": "bold",
+          },
+          Object {
+            "textDecorationLine": "line-through",
+            "textDecorationStyle": "solid",
+          },
+        ]
+      }
+    >
+      SECURITY DEPOSIT
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#949494",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        }
+      }
+    >
+       → INITIAL INVESTMENT
+    </Text>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontSize": 21,
+        },
+        Object {
+          "alignSelf": "center",
+          "paddingTop": 10,
+        },
+      ]
+    }
+  >
+    $
+    0
+  </Text>
+  <RCTSlider
+    disabled={false}
+    enabled={true}
+    maximumTrackTintColor="#919191"
+    maximumValue={12000}
+    minimumTrackTintColor="#00CFCC"
+    minimumValue={0}
+    onChange={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onSlidingComplete={null}
+    onStartShouldSetResponder={[Function]}
+    onValueChange={[Function]}
+    step={0}
+    style={
+      Array [
+        Object {
+          "height": 40,
+        },
+        Object {
+          "alignSelf": "stretch",
+          "height": 40,
+          "marginLeft": 25,
+          "marginRight": 25,
+        },
+      ]
+    }
+    thumbTintColor="#00008b"
+    value={0}
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#949494",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        },
+        Object {
+          "marginLeft": 30,
+          "marginTop": 15,
+        },
+      ]
+    }
+  >
+    MONTHLY INVESTMENT
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontSize": 21,
+        },
+        Object {
+          "alignSelf": "center",
+          "paddingTop": 10,
+        },
+      ]
+    }
+  >
+    $
+    0
+  </Text>
+  <RCTSlider
+    disabled={false}
+    enabled={true}
+    maximumTrackTintColor="#919191"
+    maximumValue={7000}
+    minimumTrackTintColor="#00CFCC"
+    minimumValue={0}
+    onChange={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onSlidingComplete={null}
+    onStartShouldSetResponder={[Function]}
+    onValueChange={[Function]}
+    step={0}
+    style={
+      Array [
+        Object {
+          "height": 40,
+        },
+        Object {
+          "alignSelf": "stretch",
+          "height": 40,
+          "marginLeft": 25,
+          "marginRight": 25,
+        },
+      ]
+    }
+    thumbTintColor="#00008b"
+    value={0}
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#949494",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        },
+        Object {
+          "marginLeft": 30,
+          "marginTop": 15,
+        },
+      ]
+    }
+  >
+    YEARS WITH UP&UP
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontSize": 21,
+        },
+        Object {
+          "alignSelf": "center",
+          "paddingTop": 10,
+        },
+      ]
+    }
+  >
+    0
+     years
+  </Text>
+  <RCTSlider
+    disabled={false}
+    enabled={true}
+    maximumTrackTintColor="#919191"
+    maximumValue={5}
+    minimumTrackTintColor="#00CFCC"
+    minimumValue={1}
+    onChange={null}
+    onResponderTerminationRequest={[Function]}
+    onSlidingComplete={[Function]}
+    onStartShouldSetResponder={[Function]}
+    onValueChange={null}
+    step={0}
+    style={
+      Array [
+        Object {
+          "height": 40,
+        },
+        Object {
+          "alignSelf": "stretch",
+          "height": 40,
+          "marginLeft": 25,
+          "marginRight": 25,
+        },
+      ]
+    }
+    thumbTintColor="#00008b"
+    value={0}
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#949494",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        },
+        Object {
+          "marginLeft": 30,
+          "marginTop": 15,
+        },
+      ]
+    }
+  >
+    OWNERSHIP VALUE
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#00CFCC",
+          "fontSize": 21,
+        },
+        Object {
+          "alignSelf": "center",
+          "fontSize": 28,
+          "marginTop": 15,
+        },
+      ]
+    }
+  >
+    $
+    0
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#949494",
+          "fontSize": 12,
+        },
+        Object {
+          "marginLeft": 30,
+          "marginRight": 30,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    Use your $
+    0
+     ownership stake as a down payment on any home, transfer it to your next up&up rental, or cash out.
+  </Text>
+</View>
+`;
+
+exports[`<App /> renders calculator component with props correctly 1`] = `
+<View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#949494",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        },
+        Object {
+          "marginLeft": 20,
+          "marginTop": 15,
+        },
+      ]
+    }
+  >
+    MONTHLY PAYMENT
+  </Text>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginLeft": 20,
+        "marginTop": 7,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 21,
+        }
+      }
+    >
+      $
+       rent +
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#00CFCC",
+            "fontSize": 21,
+          },
+          Object {
+            "marginLeft": 5,
+          },
+        ]
+      }
+    >
+      $
+      0
+       investment
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#d3d3d3",
+        "height": 1,
+        "marginTop": 3,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#d3d3d3",
+        "height": 1,
+        "marginTop": 2,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginLeft": 30,
+        "marginTop": 35,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#949494",
+            "fontSize": 15,
+            "fontWeight": "bold",
+          },
+          Object {
+            "textDecorationLine": "line-through",
+            "textDecorationStyle": "solid",
+          },
+        ]
+      }
+    >
+      SECURITY DEPOSIT
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#949494",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        }
+      }
+    >
+       → INITIAL INVESTMENT
+    </Text>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontSize": 21,
+        },
+        Object {
+          "alignSelf": "center",
+          "paddingTop": 10,
+        },
+      ]
+    }
+  >
+    $
+    0
+  </Text>
+  <RCTSlider
+    disabled={false}
+    enabled={true}
+    maximumTrackTintColor="#919191"
+    maximumValue={12000}
+    minimumTrackTintColor="#00CFCC"
+    minimumValue={0}
+    onChange={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onSlidingComplete={null}
+    onStartShouldSetResponder={[Function]}
+    onValueChange={[Function]}
+    step={0}
+    style={
+      Array [
+        Object {
+          "height": 40,
+        },
+        Object {
+          "alignSelf": "stretch",
+          "height": 40,
+          "marginLeft": 25,
+          "marginRight": 25,
+        },
+      ]
+    }
+    thumbTintColor="#00008b"
+    value={0}
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#949494",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        },
+        Object {
+          "marginLeft": 30,
+          "marginTop": 15,
+        },
+      ]
+    }
+  >
+    MONTHLY INVESTMENT
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontSize": 21,
+        },
+        Object {
+          "alignSelf": "center",
+          "paddingTop": 10,
+        },
+      ]
+    }
+  >
+    $
+    0
+  </Text>
+  <RCTSlider
+    disabled={false}
+    enabled={true}
+    maximumTrackTintColor="#919191"
+    maximumValue={7000}
+    minimumTrackTintColor="#00CFCC"
+    minimumValue={0}
+    onChange={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onSlidingComplete={null}
+    onStartShouldSetResponder={[Function]}
+    onValueChange={[Function]}
+    step={0}
+    style={
+      Array [
+        Object {
+          "height": 40,
+        },
+        Object {
+          "alignSelf": "stretch",
+          "height": 40,
+          "marginLeft": 25,
+          "marginRight": 25,
+        },
+      ]
+    }
+    thumbTintColor="#00008b"
+    value={0}
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#949494",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        },
+        Object {
+          "marginLeft": 30,
+          "marginTop": 15,
+        },
+      ]
+    }
+  >
+    YEARS WITH UP&UP
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontSize": 21,
+        },
+        Object {
+          "alignSelf": "center",
+          "paddingTop": 10,
+        },
+      ]
+    }
+  >
+    0
+     years
+  </Text>
+  <RCTSlider
+    disabled={false}
+    enabled={true}
+    maximumTrackTintColor="#919191"
+    maximumValue={5}
+    minimumTrackTintColor="#00CFCC"
+    minimumValue={1}
+    onChange={null}
+    onResponderTerminationRequest={[Function]}
+    onSlidingComplete={[Function]}
+    onStartShouldSetResponder={[Function]}
+    onValueChange={null}
+    step={0}
+    style={
+      Array [
+        Object {
+          "height": 40,
+        },
+        Object {
+          "alignSelf": "stretch",
+          "height": 40,
+          "marginLeft": 25,
+          "marginRight": 25,
+        },
+      ]
+    }
+    thumbTintColor="#00008b"
+    value={0}
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#949494",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        },
+        Object {
+          "marginLeft": 30,
+          "marginTop": 15,
+        },
+      ]
+    }
+  >
+    OWNERSHIP VALUE
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#00CFCC",
+          "fontSize": 21,
+        },
+        Object {
+          "alignSelf": "center",
+          "fontSize": 28,
+          "marginTop": 15,
+        },
+      ]
+    }
+  >
+    $
+    0
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#949494",
+          "fontSize": 12,
+        },
+        Object {
+          "marginLeft": 30,
+          "marginRight": 30,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    Use your $
+    0
+     ownership stake as a down payment on any home, transfer it to your next up&up rental, or cash out.
+  </Text>
+</View>
+`;
+
+exports[`<App /> renders page correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "marginBottom": 20,
+        "marginLeft": 10,
+      }
+    }
+  >
+    Component called with:: rent: 2000, Initial min investment: 1200, initial max: 12000, monthly max investment: 600, years max: 5
+  </Text>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#d3d3d3",
+        "height": 7,
+        "marginTop": 1,
+      }
+    }
+  />
+  <RCTScrollView>
+    <View>
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#949494",
+                "fontSize": 15,
+                "fontWeight": "bold",
+              },
+              Object {
+                "marginLeft": 20,
+                "marginTop": 15,
+              },
+            ]
+          }
+        >
+          MONTHLY PAYMENT
+        </Text>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "marginLeft": 20,
+              "marginTop": 7,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 21,
+              }
+            }
+          >
+            $
+            2000
+             rent +
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#00CFCC",
+                  "fontSize": 21,
+                },
+                Object {
+                  "marginLeft": 5,
+                },
+              ]
+            }
+          >
+            $
+            0
+             investment
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#d3d3d3",
+              "height": 1,
+              "marginTop": 3,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#d3d3d3",
+              "height": 1,
+              "marginTop": 2,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "marginLeft": 30,
+              "marginTop": 35,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#949494",
+                  "fontSize": 15,
+                  "fontWeight": "bold",
+                },
+                Object {
+                  "textDecorationLine": "line-through",
+                  "textDecorationStyle": "solid",
+                },
+              ]
+            }
+          >
+            SECURITY DEPOSIT
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#949494",
+                "fontSize": 15,
+                "fontWeight": "bold",
+              }
+            }
+          >
+             → INITIAL INVESTMENT
+          </Text>
+        </View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontSize": 21,
+              },
+              Object {
+                "alignSelf": "center",
+                "paddingTop": 10,
+              },
+            ]
+          }
+        >
+          $
+          0
+        </Text>
+        <RCTSlider
+          disabled={false}
+          enabled={true}
+          maximumTrackTintColor="#919191"
+          maximumValue={12000}
+          minimumTrackTintColor="#00CFCC"
+          minimumValue={1200}
+          onChange={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onSlidingComplete={null}
+          onStartShouldSetResponder={[Function]}
+          onValueChange={[Function]}
+          step={0}
+          style={
+            Array [
+              Object {
+                "height": 40,
+              },
+              Object {
+                "alignSelf": "stretch",
+                "height": 40,
+                "marginLeft": 25,
+                "marginRight": 25,
+              },
+            ]
+          }
+          thumbTintColor="#00008b"
+          value={0}
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#949494",
+                "fontSize": 15,
+                "fontWeight": "bold",
+              },
+              Object {
+                "marginLeft": 30,
+                "marginTop": 15,
+              },
+            ]
+          }
+        >
+          MONTHLY INVESTMENT
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontSize": 21,
+              },
+              Object {
+                "alignSelf": "center",
+                "paddingTop": 10,
+              },
+            ]
+          }
+        >
+          $
+          0
+        </Text>
+        <RCTSlider
+          disabled={false}
+          enabled={true}
+          maximumTrackTintColor="#919191"
+          maximumValue={600}
+          minimumTrackTintColor="#00CFCC"
+          minimumValue={0}
+          onChange={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onSlidingComplete={null}
+          onStartShouldSetResponder={[Function]}
+          onValueChange={[Function]}
+          step={0}
+          style={
+            Array [
+              Object {
+                "height": 40,
+              },
+              Object {
+                "alignSelf": "stretch",
+                "height": 40,
+                "marginLeft": 25,
+                "marginRight": 25,
+              },
+            ]
+          }
+          thumbTintColor="#00008b"
+          value={0}
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#949494",
+                "fontSize": 15,
+                "fontWeight": "bold",
+              },
+              Object {
+                "marginLeft": 30,
+                "marginTop": 15,
+              },
+            ]
+          }
+        >
+          YEARS WITH UP&UP
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontSize": 21,
+              },
+              Object {
+                "alignSelf": "center",
+                "paddingTop": 10,
+              },
+            ]
+          }
+        >
+          0
+           years
+        </Text>
+        <RCTSlider
+          disabled={false}
+          enabled={true}
+          maximumTrackTintColor="#919191"
+          maximumValue={5}
+          minimumTrackTintColor="#00CFCC"
+          minimumValue={1}
+          onChange={null}
+          onResponderTerminationRequest={[Function]}
+          onSlidingComplete={[Function]}
+          onStartShouldSetResponder={[Function]}
+          onValueChange={null}
+          step={0}
+          style={
+            Array [
+              Object {
+                "height": 40,
+              },
+              Object {
+                "alignSelf": "stretch",
+                "height": 40,
+                "marginLeft": 25,
+                "marginRight": 25,
+              },
+            ]
+          }
+          thumbTintColor="#00008b"
+          value={0}
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#949494",
+                "fontSize": 15,
+                "fontWeight": "bold",
+              },
+              Object {
+                "marginLeft": 30,
+                "marginTop": 15,
+              },
+            ]
+          }
+        >
+          OWNERSHIP VALUE
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#00CFCC",
+                "fontSize": 21,
+              },
+              Object {
+                "alignSelf": "center",
+                "fontSize": 28,
+                "marginTop": 15,
+              },
+            ]
+          }
+        >
+          $
+          0
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#949494",
+                "fontSize": 12,
+              },
+              Object {
+                "marginLeft": 30,
+                "marginRight": 30,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Use your $
+          0
+           ownership stake as a down payment on any home, transfer it to your next up&up rental, or cash out.
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
